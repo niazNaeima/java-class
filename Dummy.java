@@ -1,4 +1,7 @@
 public class Dummy {
+    public static void main(String[] args) {
+
+
     char firstWordName ='n' ;
     String name="niaz";
     String family="naeima";
@@ -10,4 +13,7 @@ public class Dummy {
     float workInDotin_y= 3.5f ;
     boolean isMen=true ;
 
+        System.out.println("My name is "+name+ " and family is " +family + " and I am "+age+ " years old ");
+
+    }
 }
