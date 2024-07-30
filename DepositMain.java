@@ -5,7 +5,10 @@ public class DepositMain {
         Deposit arman=new LongTimeDeposit("arman",51000);
         Deposit simin=new ShortTimeDeposit("simin",200000);
 
-
+        niaz.debit(120);
+        nima.settle(19000);
+        nima.settle(5000);
+        arman.settle(4000);
         Deposit[] depositList=new Deposit[Deposit.count];
         depositList[0]=niaz;
         depositList[1]=nima;
